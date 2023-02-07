@@ -24,7 +24,11 @@ module.exports = {
         'divider': 'hsl(240, 5%, 91%)'
       },
       backgroundImage: {
-        'mobile-pattern': "url('/img/bg-pattern-mobile.svg')"
+        'mobile-pattern': "url('/img/bg-pattern-mobile.svg')",
+        'desktop-pattern': "url('/img/bg-pattern-desktop.svg')"
+      },
+      backgroundPosition: {
+        'left-offset': 'left -33rem top -17rem'
       }
     },
   },
