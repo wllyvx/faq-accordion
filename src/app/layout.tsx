@@ -1,6 +1,7 @@
 import './globals.css'
 import { Kumbh_Sans } from '@next/font/google'
 
+
 const kumbh = Kumbh_Sans({
   weight: ['400', '700'],
   subsets: ['latin']
