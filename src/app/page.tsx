@@ -7,10 +7,10 @@ export default function Home() {
       <footer className="absolute bottom-0 mx-auto w-full text-xs md:text-base text-center text-white">
         <span>
           Challenge by{" "}
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" className="font-bold">
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer" className="font-bold">
             Frontend Mentor
           </a>
-           . Coded by <a href="https://github.com/wllyvx" target="_blank" className="font-bold">Willy Fajar Ramadhan</a>.
+           . Coded by <a href="https://github.com/wllyvx" target="_blank" rel="noreferrer" className="font-bold">Willy Fajar Ramadhan</a>.
         </span>
       </footer>
     </main>
