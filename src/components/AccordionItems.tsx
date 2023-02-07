@@ -13,7 +13,7 @@ export default function AccordionItems({id, question, answer} : ItemProps) {
         {({ open }) => (
           <>
             <Disclosure.Button className="py-2 text-left flex items-center justify-between w-full">
-              <span className={`${open ? 'font-bold text-black' : ''} hover:font-bold hover:text-black`}>{question}</span>
+              <span className={`${open ? 'font-bold text-very-dark-desaturated-blue' : ''} hover:font-bold hover:text-soft-red`}>{question}</span>
               <img src="./img/icon-arrow-down.svg" alt="" className={`${open ? 'rotate-180 transform' : ''} transition-all duration-200`} />
             </Disclosure.Button>
             <Disclosure.Panel className="text-gray-500 pb-2">
