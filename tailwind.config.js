@@ -14,7 +14,10 @@ module.exports = {
         // #### Gradient
         'grad1': 'hsl(273, 75%, 66%)',
         'grad2': 'hsl(240, 73%, 65%)',
-        // #### Text
+        // ### Text Primary
+        'very-dark-desaturated-blue': 'hsl(238, 29%, 16%)',
+        'soft-red': 'hsl(14, 88%, 65%)',
+        // #### Text Neutral
         'very-dark': 'hsl(237, 12%, 33%)',
         'dark': 'hsl(240, 6%, 50%)',
         // #### Dividers
