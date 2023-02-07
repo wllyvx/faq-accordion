@@ -19,6 +19,9 @@ module.exports = {
         'dark': 'hsl(240, 6%, 50%)',
         // #### Dividers
         'divider': 'hsl(240, 5%, 91%)'
+      },
+      backgroundImage: {
+        'mobile-pattern': "url('/img/bg-pattern-mobile.svg')"
       }
     },
   },
