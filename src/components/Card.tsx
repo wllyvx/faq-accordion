@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Card() {
   return (
-    <div className="w-full max-w-[57.5rem] rounded-3xl bg-white text-dark">
+    <div className="w-full max-w-[57.5rem] rounded-3xl bg-white shadow-2xl text-dark">
       <div className="relative flex w-full flex-col items-center justify-center gap-0 bg-mobile-pattern bg-top bg-no-repeat p-0 md:flex-row md:justify-between md:gap-20 md:bg-desktop-pattern md:bg-cover md:bg-left-offset md:py-16 md:pr-28">
         <Image
           src="./img/illustration-woman-online-mobile.svg"
