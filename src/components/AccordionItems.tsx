@@ -31,13 +31,13 @@ export default function AccordionItems({ id, question, answer }: ItemProps) {
           <Transition
             show={open}
             enter="transition ease-out duration-150"
-            enterFrom="transform opacity-0 scale-0"
-            enterTo="transform opacity-100 scale-100"
+            enterFrom="transform opacity-0 scale-y-0"
+            enterTo="transform opacity-100 scale-y-100"
             leave="transition ease-in duration-150"
-            leaveFrom="transform opacity-100 scale-100"
-            leaveTo="transform opacity-0 scale-0"
+            leaveFrom="transform opacity-100 scale-y-100"
+            leaveTo="transform opacity-0 scale-y-0"
           >
-            <Disclosure.Panel className="pb-2 text-gray-500">
+            <Disclosure.Panel className="pb-2 text-gray-500 origin-top">
               <span>{answer}</span>
             </Disclosure.Panel>
           </Transition>
