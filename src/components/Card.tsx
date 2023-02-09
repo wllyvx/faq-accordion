@@ -12,21 +12,23 @@ export default function Card() {
           alt="illustration woman online mobile"
           className="absolute -top-[20%] block w-60 md:hidden"
         />
-        <Image
-          src="./img/illustration-woman-online-desktop.svg"
-          width={600}
-          height={600}
-          alt="illustration woman mobile dekstop"
-          className="-ml-[5.25rem] hidden md:block"
-        />
+        <div className="w-[60rem] h-[23.8rem] relative hidden md:block overflow-hidden">
+            <Image
+            src="./img/illustration-woman-online-desktop.svg"
+            fill
+            objectFit="contain"
+            alt="illustration woman mobile dekstop"
+            className="-ml-[3.3rem] scale-125"
+            />
+        </div>
         <Image
           src="./img/illustration-box-desktop.svg"
           width={600}
           height={600}
           alt="illustration box"
-          className="absolute hidden -left-[6.8rem] top-[12.5rem] w-48 md:block"
+          className="absolute hidden -left-[7.5rem] top-[12.85rem] w-48 md:block"
         />
-        <div className="flex w-full flex-col items-center justify-center pt-[8.25rem] pb-10 md:items-start md:py-0">
+        <div className="flex w-full flex-col items-center justify-center pt-[8.25rem] pb-10 md:items-start md:justify-start md:py-0">
           <h1 className="text-3xl font-semibold text-black">FAQ</h1>
           <Accordion />
         </div>
