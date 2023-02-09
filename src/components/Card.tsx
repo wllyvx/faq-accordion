@@ -10,7 +10,7 @@ export default function Card() {
           width={600}
           height={600}
           alt="illustration woman online mobile"
-          className="absolute -top-[20%] block w-60 md:hidden"
+          className="absolute -top-[22%] block w-60 md:hidden"
         />
         <div className="w-[60rem] h-[23.8rem] relative hidden md:block overflow-hidden">
             <Image
